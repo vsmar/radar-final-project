@@ -1,6 +1,28 @@
-Trial Name,Start Time,End Time
-Test Trial 5,2025-05-29 17:32:20.551403,2025-05-29 17:32:30.722822
-Test Trial 6,2025-05-29 17:34:01.964955,2025-05-29 17:34:12.126286
-Test Trial 7,2025-05-29 17:35:28.768306,2025-05-29 17:36:35.933759
-Test Trial 8,2025-05-29 17:38:18.051989,2025-05-29 17:38:29.398475
-Test Trial 9,2025-05-29 17:39:06.047812,2025-05-29 17:39:16.181303
+Trial Name,Start Time,End Time,Notes
+Test Trial 5,32:20.6,32:30.7,
+Test Trial 6,34:02.0,34:12.1,
+Test Trial 7,35:28.8,36:35.9,
+Test Trial 8,38:18.1,38:29.4,
+Test Trial 9,39:06.0,39:16.2,
+Day_2-Test_Trial_1,30:48.9,30:59.0,ground truth fuzzy
+,,,
+,,,
+,,,
+,,,
+,,,
+Day_2-Test_Trial_2,36:28.7,36:38.8,ignore
+Day_2-Test_Trial_2,37:04.1,37:14.3,
+Day_2-Test_Trial_3,38:57.4,39:07.5,
+Day_2-Test_Trial_4,40:38.0,40:48.1,
+Day_2-Test_Trial_5,41:41.4,41:51.5,
+Day_2-Test_Trial_6,42:48.7,42:58.8,
+Day_2-Test_Trial_7,46:23.5,46:33.6,ignore
+Day_2-Test_Trial_7,47:58.7,48:08.8,ignore
+Day_2-Test_Trial_8,51:10.7,51:20.9,ignore
+Day_2-Test_Trial_7,52:48.2,52:58.3,
+Day_2-Test_Trial_8,54:08.4,54:18.6,
+Day_2-Test_Trial_9,56:54.7,57:04.9,
+Day_2-Test_Trial_10,58:12.9,58:23.1,
+Day_2-Test_Trial_11,59:35.9,59:46.0,
+Day_2-Test_Trial_12,02:27.0,02:37.2,
+Day_2-Test_Trial_13,05:02.0,05:12.1,
