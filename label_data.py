@@ -5,7 +5,7 @@ import os
 
 wav_directory = "doppler_data_day2"
 
-fs, data = scipy.io.wavfile.read(os.path.join(wav_directory, f'Day_2-Test_Trial_1.wav'))
+fs, data = scipy.io.wavfile.read(os.path.join(wav_directory, f'Day_2-Test_Trial_5.wav'))
 func, t, Sxx = scipy.signal.spectrogram(data, fs, nperseg=2048, noverlap=1024, nfft=2**15, detrend='linear')
 Sxx = 10 * np.log10(Sxx[0:400])
 func = func[:400]
