@@ -20,12 +20,10 @@ def label_path_on_spectrogram(Sxx, t, f):
     plt.ylabel("Frequency (Hz)")
 
     # Use ginput to get (x, y) clicks from user
-    points = plt.ginput(n=-1, timeout=0)  # -1 means unlimited points
+    points = plt.ginput(n=-1, timeout=0)
     plt.close()
 
     print(points)
-
-    # print as list of (time, freq)
     return points
 
 
